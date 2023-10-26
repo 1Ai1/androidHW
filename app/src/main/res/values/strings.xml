@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">firstHW</string>
+    <string name="hello_my_name">Hello my name is %s</string>
+</resources>
