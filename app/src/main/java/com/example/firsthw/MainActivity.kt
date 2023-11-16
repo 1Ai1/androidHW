@@ -11,11 +11,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
-        setUpName("Aieke")
     }
 
-    private fun setUpName(name: String)
-    {
-        binding.nameView.text = getString(R.string.hello_my_name, name)
-    }
 }
